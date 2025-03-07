@@ -20,11 +20,11 @@ BanglaFinGPT is a fine-tuned version of Lama 3.2  specialized for financial task
 * Supports domain-specific finance queries with enhanced retrieval mechanisms.
 
 # 3. Features
-✅ Fine-tuned LLM for Bengali finance topics.
-✅ Retrieval-Augmented Generation (RAG) for improved accuracy.
-✅ Vector database for efficient information retrieval.
-✅ Bilingual support (Bengali & English).
-✅ Interactive UI with Streamlit.
+* ✅ Fine-tuned LLM for Bengali finance topics.
+* ✅ Retrieval-Augmented Generation (RAG) for improved accuracy.
+* ✅ Vector database for efficient information retrieval.
+* ✅ Bilingual support (Bengali & English).
+* ✅ Interactive UI with Streamlit.
 
 # 4. Tech Stack
 * LLM: BanglaLLama-3.2-3b
@@ -36,12 +36,12 @@ BanglaFinGPT is a fine-tuned version of Lama 3.2  specialized for financial task
 * Storage: Vector database(FAISS) for embeddings
 
 # 5. Project Architecture
-1️⃣ Data Collection: Extracted Q&A pairs from NBR PDFs.
-2️⃣ Fine-Tuning: Trained BanglaLLama-3.2-3b with finance-related data.
-3️⃣ Embedding Generation: Converted text into vectors using FAISS.
-4️⃣ Retrieval Process: Queries retrieve relevant finance information from the vector database.
-5️⃣ Response Generation: LLM generates responses based on retrieved data.
-6️⃣ User Interface: Interactive chatbot built with Streamlit.
+* 1️⃣ Data Collection: Extracted Q&A pairs from NBR PDFs.
+* 2️⃣ Fine-Tuning: Trained BanglaLLama-3.2-3b with finance-related data.
+* 3️⃣ Embedding Generation: Converted text into vectors using FAISS.
+* 4️⃣ Retrieval Process: Queries retrieve relevant finance information from the vector database.
+* 5️⃣ Response Generation: LLM generates responses based on retrieved data.
+* 6️⃣ User Interface: Interactive chatbot built with Streamlit.
 
 # Application Image
 ![image](https://github.com/user-attachments/assets/a5d36786-bd59-44af-a960-03b5e6729519)
